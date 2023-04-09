@@ -1,0 +1,151 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.la {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.music-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sidebar {
+  background-color: rgb(186, 186, 186);
+  width: 50px;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main {
+  flex-grow: 1;
+}
+.banner {
+  background-color: #454545;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  gap: 40px;
+  color: #fff;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.content .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content .heading h1 {
+  margin: 0px;
+}
+.content .sub-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.content .sub-heading  p {
+  margin: 0px;
+}
+
+.content .actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.content .actions span {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  align-items: center;
+  font-size: 12px;
+}
+.content .actions span .la {
+  font-size: 16px;
+}
+.table-section {
+  margin: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 8px;
+}
+td button {
+  background: none;
+  border:1px solid black;
+  color: blue;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.alt {
+  background-color: #f2f2f2;
+}
+
+.music-control {
+  background-color: #43689b ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.music-control .thumbnail {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  color: #fff;
+}
+.music-control .thumbnail img {
+  width: 130px;
+}
+
+.music-control .actions {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+  color: #fff;
+}
+
